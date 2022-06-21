@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <!-- three.js library -->
 <script src='vendor/three.js/build/three.min.js'></script>
-<script src="vendor/three.js/examples/js/libs/stats.min.js"></script>
 <!-- ar.js -->
 <script src="../build/ar.js"></script>
 <script>THREEx.ArToolkitContext.baseURL = '../'</script>
@@ -82,8 +81,8 @@
 		cameraParametersUrl: THREEx.ArToolkitContext.baseURL + '../data/data/camera_para.dat',
 		detectionMode: 'mono',
 		maxDetectionRate: 30,
-		canvasWidth: 80*3,
-		canvasHeight: 60*3,
+		canvasWidth: 100*3,
+		canvasHeight: 100*3,
 	})
 	// initialize it
 	arToolkitContext.init(function onCompleted(){
